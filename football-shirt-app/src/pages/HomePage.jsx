@@ -1,10 +1,9 @@
-import "./HomePage.css";
+import GalleryGrid from "../components/gallerygrid/GalleryGrid";
 
 function HomePage() {
     return (
-        <div className="home-section">
-            <h1>Welcome to the Football Shirt Gallery</h1>
-            <p>Explore our collection of iconic football shirts from around the world.</p>
+        <div>
+           <GalleryGrid />
         </div>
     );
 }

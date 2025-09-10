@@ -1,0 +1,7 @@
+/* Container for all the cards */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* responsive columns */
+  gap: 20px; /* space between cards */
+  padding: 20px;
+}

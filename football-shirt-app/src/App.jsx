@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import NavBar from './components/navbar/NavBar'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -9,10 +9,11 @@ import shirts from './data/shirts'
 
 function App() {
   const [shirtCollection, setShirtCollection] = useState(shirts)
+  const [searchQuery, setSearchQuery] = useState("");
+    const [sortOption, setSortOption] = useState("default");
 
   return (
-    <>
-    <ShirtContext.Provider value={{ shirtCollection, setShirtCollection }}>
+    <ShirtContext.Provider value={{ shirtCollection, setShirtCollection, searchQuery, setSearchQuery, sortOption, setSortOption }}>
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -20,7 +21,6 @@ function App() {
         <Route path="/shirts/:id" element={<ShirtDetailsPage />} />
       </Routes>
     </ShirtContext.Provider>
-    </>
   )
 }
 

@@ -40,3 +40,18 @@
   color: #ffcc00;
 }
 
+.search-field {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.sort-dropdown {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 10px;
+}

@@ -46,7 +46,7 @@ export const shirts = [
     title: "Manchester United 2000-01 Home Shirt",
     year: "2000",
     colors: "Red / White / Black",
-    brand: "Nike",
+    brand: "Umbro",
     wornBy: "David Beckham, Ryan Giggs, Paul Scholes",
     images: {
       front: "/images/manchesterunited2000-01home/manchester-united-2000-01-home-front.webp",
@@ -60,7 +60,7 @@ export const shirts = [
     title: "Parma Calcio 2001-02 Home Shirt",
     year: "2001",
     colors: "Yellow / Blue / Black",
-    brand: "Kappa",
+    brand: "Champion",
     wornBy: "Hidetoshi Nakata, Fabio Cannavaro, Marco Di Vaio",
     images: {
       front: "/images/parma2001-02home/parma-2001-02-home-front.jpg",
@@ -149,7 +149,7 @@ export const shirts = [
     title: "Barcelona 2008-09 Home Shirt",
     year: "2008",
     colors: "Blue / Red",
-    brand: "Kappa",
+    brand: "Nike",
     wornBy: "Lionel Messi, Xavi, Thierry Henry",
     images: {
       front: "/images/barcelona2008-09home/barcelona-2008-09-home-front.jpg",
@@ -204,7 +204,7 @@ export const shirts = [
     title: "Manchester United 2000-01 Away Shirt",
     year: "2000",
     colors: "Blue / Black / White",
-    brand: "Nike",
+    brand: "Umbro",
     wornBy: "David Beckham, Ryan Giggs, Paul Scholes",
     images: {
       front: "/images/manchesterunited-2000-01away/manchester-united-2000-01-away-front.jpg",
